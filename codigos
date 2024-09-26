@@ -1,0 +1,89 @@
+                                                                   HTML
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="codigo2.css">
+    <title>Persona</title>
+</head>
+<body>
+
+<header>
+    <h1>WILLIAM SERVIÇOS DE T.I</h1>
+</header>
+<br>
+
+
+    <section id="persona">
+        <img src="tecnico.jpg" alt="Foto da Persona" id="tecnico">
+    </section>
+    <br></br>
+    <section id="info">
+        <p>Nome: William Ferreira</p>
+        <p> Sexo: Masculino</p>
+        <p> Idade: 23 anos</p>
+        <p> Objetivos: Ofereço meus serviços de T.I desde 2019 </p>
+        <p> Comportamento On-line: Trabalho com a internet para ganhar reconhecimento e conhecimento.</p>
+        <!DOCTYPE html>
+        <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Promoção de Serviços de T.I</title>
+        </head>
+        <body>
+        
+            <h1>Promoção Especial</h1>
+            
+            <!-- Botão simples com o texto da promoção -->
+            <button onclick="window.location.href='#'">
+                PROMOÇÃO DE SERVIÇOS DE T.I, 50% DE DESCONTO EM FORMATAÇÃO E LIMPEZA
+            </button>
+        <p>WHATSAPP: 31984348358</p>
+        
+        </body>
+        </html>
+        
+
+        </nav>
+    </header>
+<br></br>
+    <footer>
+        <p>&copy;2024 Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                CSS
+
+body{
+    background-color: #071f29;
+    }
+    #persona {
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    #persona-jpg {
+        border-radius: 50vh;
+        text-align: center;
+    }
+    #info{
+        background-color: #548b8b;
+        text-align: center;
+        padding: 2rem 0;
+        margin: 20vh;
+    }
+    footer{
+        background-color: #2b4646;
+        text-align: center;
+    }
+    header{
+        background-color: darkgray;
+        padding: 20px;
+        align-items: center;
+    }
